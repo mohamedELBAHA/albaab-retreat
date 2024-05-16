@@ -5,7 +5,7 @@
     --primaryFont: 'Raleway', sans-serif;
     --primaryFontWeight: 400;
     --primaryTransition: all 0.1s linear;
-    --primaryHoverColor: rgb(134, 93, 10);
+    --primaryHoverColor: rgb(227, 172, 61);
     --primaryBackground: #191919;
     --primaryOpacity: 1;
     --secondaryColor: #777;
@@ -215,7 +215,6 @@ header {
     color: #fff;
     font-family: 'Raleway';
     font-weight: var(--primaryFontWeight);
-    text-transform: uppercase;
 }
 
 .landing-page-heading {
