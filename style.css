@@ -685,8 +685,7 @@ header {
     position: relative;
     font-family: 'Poppins';
 }
-
-.schedule_heading {
+.schedule_heading::after {
     content: '';
     position: absolute;
     width: 75px;
