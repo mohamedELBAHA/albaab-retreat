@@ -1320,7 +1320,7 @@ header {
 /* SECTION - 8 START */
 .newsletter {
     min-height: calc(100vh - 205px);
-    background: url('./Images/Background/macbook.jpg');
+    background: url('./Images/Background/cambridge.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
