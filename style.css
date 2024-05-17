@@ -1039,6 +1039,7 @@ header {
     margin: 0 auto;
     transition: var(--primaryTransition) !important;
     cursor: pointer;
+    width: 80%;
 }
 
 .pricing-block:hover {
