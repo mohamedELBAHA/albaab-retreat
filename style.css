@@ -159,7 +159,6 @@ body {
 @media screen and (min-width:991px) and (max-width:1200px) {
 
     .landing-page-heading::after,
-    .schedule_heading::after,
     .about_us_heading::after,
     .speakers-title::after,
     .pricing-heading::after,
@@ -684,15 +683,6 @@ header {
     text-align: center;
     position: relative;
     font-family: 'Poppins';
-}
-.schedule_heading::after {
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 3px;
-    background: var(--primaryHoverColor);
-    left: 44.8%;
-    top: 44%;
 }
 
 .schedule_heading h1 {
