@@ -161,10 +161,6 @@ body {
     .landing-page-heading::after,
     .speakers-title::after,
     .pricing-heading::after,
-    .sponsors-heading::after,
-    .contact-heading::after {
-        display: none;
-    }
 }
 
 /* SECTION - 1 START */
@@ -1257,15 +1253,7 @@ header {
     letter-spacing: 0.2em;
 }
 
-.sponsors-heading::after {
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 3px;
-    top: 47%;
-    left: 44.8%;
-    background: var(--primaryHoverColor);
-}
+
 
 /* SECTION - 7 MEDIA QUERY START */
 @media only screen and (min-width:280px) and (max-width:991px) {
@@ -1385,9 +1373,6 @@ header {
         width: 100%;
     }
 
-    .subs-news-heading::after {
-        display: none;
-    }
 
     .subs-news form {
         width: 100%;
@@ -1405,9 +1390,6 @@ header {
 }
 
 @media screen and (min-width:1200px) and (max-width:1400px) {
-    .subs-news-heading::after {
-        top: 70%;
-    }
 }
 
 /* SECTION - 8 MEDIA QUERY END */
@@ -1502,9 +1484,7 @@ header {
         width: 100%;
     }
 
-    .contact-heading::after {
-        display: none;
-    }
+
 
     .contact-heading h1 {
         margin-bottom: 1.5rem !important;
