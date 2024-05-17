@@ -161,9 +161,7 @@ body {
     .landing-page-heading::after,
     .speakers-title::after,
     .pricing-heading::after,
-    .sign-up-heading::after,
     .sponsors-heading::after,
-    .subs-news-heading::after,
     .contact-heading::after {
         display: none;
     }
@@ -1143,15 +1141,6 @@ header {
     position: relative;
 }
 
-.sign-up-heading::after {
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 3px;
-    top: 59%;
-    left: 44.8%;
-    background: var(--primaryHoverColor);
-}
 
 .sign-up-heading h1 {
     font-weight: 700;
@@ -1231,9 +1220,7 @@ header {
         margin-bottom: 1.5rem !important;
     }
 
-    .sign-up-heading::after {
-        display: none;
-    }
+
 
     .sign-up-heading h1 {
         margin-top: 3rem;
@@ -1318,16 +1305,7 @@ header {
     text-align: center;
 }
 
-.subs-news-heading::after {
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 3px;
-    top: 59%;
-    left: 44.8%;
-    background: var(--primaryHoverColor);
 
-}
 
 .subs-news-heading h1 {
     font-weight: 700;
