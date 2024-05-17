@@ -1036,6 +1036,7 @@ header {
 
 .pricing-block {
     background: #f3f5f8;
+    margin: 0 auto;
     transition: var(--primaryTransition) !important;
     cursor: pointer;
 }
