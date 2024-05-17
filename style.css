@@ -159,7 +159,6 @@ body {
 @media screen and (min-width:991px) and (max-width:1200px) {
 
     .landing-page-heading::after,
-    .about_us_heading::after,
     .speakers-title::after,
     .pricing-heading::after,
     .sign-up-heading::after,
@@ -529,15 +528,6 @@ header {
     font-family: 'Poppins';
 }
 
-.about_us_heading::after {
-    content: '';
-    position: absolute;
-    width: 75px;
-    height: 3px;
-    background: var(--primaryHoverColor);
-    top: 44%;
-    left: 44.8%;
-}
 
 .about_us_heading h1 {
     letter-spacing: 0.2em;
