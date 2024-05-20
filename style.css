@@ -1084,7 +1084,10 @@ header {
     border-radius: 1px;
     transition: var(--primaryTransition);
 }
-
+.btn-learn-more {
+    display: flex;
+    justify-content: center;
+}
 .pricing-btn button:hover {
     background: #000 !important;
     color: #fff !important;
